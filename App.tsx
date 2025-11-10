@@ -1,4 +1,5 @@
 
+
 import React, { useState, useMemo, useRef } from 'react';
 import { Transaction, Category } from './types';
 import { parseReport } from './services/parser';
@@ -95,7 +96,7 @@ const App: React.FC = () => {
     
         filteredTransactions.forEach(transaction => {
             const values = headers.map(header => {
-                const value = transaction[header] || '';
+                const value = transaction[header as keyof Transaction] || '';
                 const escaped = ('' + value).replace(/"/g, '""');
                 return `"${escaped}"`;
             });
@@ -129,8 +130,7 @@ const App: React.FC = () => {
         const finalTransactions = Array.from(transactionMap.values());
     
         // Recalcula as categorias a partir da lista completa e atualizada de transações. Esta é a fonte da verdade.
-        // Fix: Explicitly type the accumulator in the reduce function to help TypeScript correctly infer the type of `t`.
-        const categoryCounts = finalTransactions.reduce((acc: { [key: string]: number }, t) => {
+        const categoryCounts = finalTransactions.reduce((acc: { [key: string]: number }, t: Transaction) => {
             acc[t.category] = (acc[t.category] || 0) + 1;
             return acc;
         }, {});
@@ -213,7 +213,8 @@ const App: React.FC = () => {
                     processReportText(text);
                 }
             } catch (err) {
-                const errorMessage = err instanceof Error ? err.message : "Ocorreu um erro desconhecido.";
+                // Fix: Safely handle the 'unknown' type of the error object in the catch block.
+                const errorMessage = err instanceof Error ? err.message : String(err);
                 setError(`Erro ao processar o arquivo "${file.name}": ${errorMessage}`);
                 // Stop processing further files if one fails
                 break;
@@ -238,27 +239,45 @@ const App: React.FC = () => {
         const identifiersToValidate = new Set(
             validationInput.split('\n').map(line => line.trim()).filter(Boolean)
         );
-
+    
         if (identifiersToValidate.size === 0) {
             setValidationMessage("Por favor, insira dados para validar.");
             return;
         }
-
+    
         const newValidatedIds = new Set(validatedTransactionIds);
-        let foundCount = 0;
-
+        const foundIdentifiers = new Set<string>();
+    
+        // Crie um mapa dos identificadores de entrada em minúsculas para os originais para uma correspondência insensível a maiúsculas e minúsculas.
+        const lowercasedIdentifierMap = new Map<string, string>();
+        identifiersToValidate.forEach(id => lowercasedIdentifierMap.set(id.toLowerCase(), id));
+    
         allTransactions.forEach(transaction => {
             const value = transaction[validationField];
-            if (value && identifiersToValidate.has(String(value))) {
-                if (!newValidatedIds.has(transaction.id)) {
+            if (value) {
+                const lowercasedValue = String(value).toLowerCase();
+                // Verifique se o valor da transação (em minúsculas) existe no nosso mapa.
+                if (lowercasedIdentifierMap.has(lowercasedValue)) {
                     newValidatedIds.add(transaction.id);
-                    foundCount++;
+                    // Recupere o identificador original com maiúsculas e minúsculas da entrada e adicione-o aos foundIdentifiers.
+                    const originalIdentifier = lowercasedIdentifierMap.get(lowercasedValue)!;
+                    foundIdentifiers.add(originalIdentifier);
                 }
             }
         });
-        
+    
+        const notFoundIdentifiers = new Set(
+            [...identifiersToValidate].filter(id => !foundIdentifiers.has(id))
+        );
+    
         setValidatedTransactionIds(newValidatedIds);
-        setValidationMessage(`${foundCount} nova(s) transação(ões) validada(s). Total: ${newValidatedIds.size} transações validadas.`);
+    
+        let message = `Validação concluída. ${foundIdentifiers.size} encontrado(s) na planilha.`;
+        if (notFoundIdentifiers.size > 0) {
+            message += ` ${notFoundIdentifiers.size} não encontrado(s): ${Array.from(notFoundIdentifiers).join(', ')}.`;
+        }
+        
+        setValidationMessage(message);
     };
     
     const handleClearValidation = () => {

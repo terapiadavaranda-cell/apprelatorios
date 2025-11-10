@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Transaction } from '../types';
 
@@ -34,7 +35,8 @@ const StatusBadge: React.FC<{ status: string }> = ({ status }) => {
 };
 
 const TransactionCard: React.FC<TransactionCardProps> = ({ transaction, onToggleDetails, isExpanded, isValidated }) => {
-    const buyerName = transaction['Comprador(a)'] || transaction['Email do(a) Comprador(a)'] || 'Comprador não identificado';
+    const originalBuyerName = transaction['Comprador(a)'] || transaction['Email do(a) Comprador(a)'] || 'Comprador não identificado';
+    const displayBuyerName = isValidated ? `${originalBuyerName} (Validado)` : originalBuyerName;
     const transactionDate = transaction['Data da transação']?.split(' ')[0] || 'N/A';
     const value = transaction['Valor de compra com impostos'] || '0';
     const currency = transaction['Moeda de compra'] || 'BRL';
@@ -69,7 +71,7 @@ const TransactionCard: React.FC<TransactionCardProps> = ({ transaction, onToggle
                 </div>
             )}
              <div className="flex-1 min-w-0">
-                <p className="text-lg font-semibold text-gray-800 truncate" title={buyerName}>{buyerName}</p>
+                <p className="text-lg font-semibold text-gray-800 truncate" title={displayBuyerName}>{displayBuyerName}</p>
                 <p className="text-sm text-gray-500 mt-1">
                     <span className="font-medium">ID:</span> {transaction.id} &bull; <span className="font-medium">Data:</span> {transactionDate}
                 </p>
