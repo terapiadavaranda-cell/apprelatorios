@@ -1,0 +1,937 @@
+export const reportData = `
+Aqui está o relatório completo das transações, organizado pelas categorias "Nome deste preço" encontradas nos dados fornecidos:
+
+# Relatório de Vendas por Nome deste Preço
+
+## Sumário das Categorias
+
+- **Acesso Vitalício**: 32 transações
+- **Assinatura Mensal (Portal Prosperidade)**: 279 transações
+- **Desconto por tempo limitado**: 2 transações
+
+---
+
+## Detalhes das Transações por Categoria
+
+### Acesso Vitalício (32 transações)
+
+- **Transação 1:**
+    - Código da transação: HP2909912650
+    - Status da transação: Completo
+    - Data da transação: 07/09/2025 20:19:07
+    - Confirmação do pagamento: 07/09/2025 20:19:10
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 2222632
+    - Produto: Portal Prosperidade
+    - Código do preço: pjc1qzo5
+    - Nome deste preço: Acesso Vitalício
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 519.48
+    - Impostos locais de compra + Taxa de parcelamento: 124.48
+    - Valor de compra sem impostos: 395
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 395
+    - Faturamento líquido: 8.86
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 97.45
+    - Comissão do(a) Afiliado(a): 177.19
+    - Faturamento do(a) Coprodutor(a): 79.74
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 34.18
+    - Taxa de streaming: 2.49
+    - Outras Taxas: 3.95
+    - Nome do(a) Afiliado(a) : V R DE CASTRO PROMOCAO DE VENDAS
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: ighQwK21wXxR120213265521480673hQwK21wXxRpaidhQwK21wXxR120213265902340673hQwK21wXxR120213265902330673
+    - Método de pagamento: Cartão de Crédito
+    - Tipo de cobrança: Parcelamento padrão (até 12×)
+    - Quantidade total de parcelas: 12
+    - Quantidade de cobranças: 1
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Juliana Francis da Silva Juvino Vieira
+    - Email do(a) Comprador(a): francisjuvieira@gmail.com
+    - País: Brasil
+    - Telefone: 11947312076
+    - Documento: 23024671838
+    - Código postal: 02618090
+    - Cidade: São Paulo
+    - Estado / Província: SP
+    - Endereço: Rua Pedro Garcia
+    - Bairro: Vila Amália (Zona Norte)
+    - Número: 35
+    - Complemento: (none)
+    - Instagram: (none)
+    - Código do assinante: (none)
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 124.48
+    - Valor do frete bruto: 0
+
+- **Transação 2:**
+    - Código da transação: HP0123590716
+    - Status da transação: Completo
+    - Data da transação: 14/08/2025 14:02:19
+    - Confirmação do pagamento: 14/08/2025 14:02:22
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 2222632
+    - Produto: Portal Prosperidade
+    - Código do preço: pjc1qzo5
+    - Nome deste preço: Acesso Vitalício
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 421.8
+    - Impostos locais de compra + Taxa de parcelamento: 26.8
+    - Valor de compra sem impostos: 395
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 395
+    - Faturamento líquido: 8.86
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 88.59
+    - Comissão do(a) Afiliado(a): 177.19
+    - Faturamento do(a) Coprodutor(a): 88.6
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 34.18
+    - Taxa de streaming: 2.49
+    - Outras Taxas: 3.95
+    - Nome do(a) Afiliado(a) : V R DE CASTRO PROMOCAO DE VENDAS
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: ighQwK21wXxR120213265521480673hQwK21wXxRpaidhQwK21wXxR120213265902340673hQwK21wXxR120213265902330673
+    - Método de pagamento: Cartão de Crédito
+    - Tipo de cobrança: Parcelamento padrão (até 12×)
+    - Quantidade total de parcelas: 2
+    - Quantidade de cobranças: 1
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Patricia Cressoni Gomes
+    - Email do(a) Comprador(a): patricia.cress@gmail.com
+    - País: Brasil
+    - Telefone: 11995600661
+    - Documento: 31261278860
+    - Código postal: 09070210
+    - Cidade: (none)
+    - Estado / Província: (none)
+    - Endereço: (none)
+    - Bairro: (none)
+    - Número: (none)
+    - Complemento: (none)
+    - Instagram: (none)
+    - Código do assinante: (none)
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 26.8
+    - Valor do frete bruto: 0
+
+- **Transação 3:**
+    - Código da transação: HP2924102984
+    - Status da transação: Completo
+    - Data da transação: 14/08/2025 10:35:47
+    - Confirmação do pagamento: 14/08/2025 10:35:49
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 2222632
+    - Produto: Portal Prosperidade
+    - Código do preço: pjc1qzo5
+    - Nome deste preço: Acesso Vitalício
+    - Taxa de conversão (moeda de compra): 0.185182
+    - Moeda de compra: USD
+    - Valor de compra com impostos: 79
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 79
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: USD
+    - Faturamento bruto (sem impostos): 79
+    - Faturamento líquido: 1.77
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 17.6
+    - Comissão do(a) Afiliado(a): 35.31
+    - Faturamento do(a) Coprodutor(a): 17.7
+    - Moeda das Taxas: USD
+    - Taxa de processamento: 7.14
+    - Taxa de streaming: 0.46
+    - Outras Taxas: 0.79
+    - Nome do(a) Afiliado(a) : V R DE CASTRO PROMOCAO DE VENDAS
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Cartão de Crédito
+    - Tipo de cobrança: Apenas à vista
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 1
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Andrea Roby
+    - Email do(a) Comprador(a): andreacabral164@gmail.com
+    - País: Estados Unidos
+    - Telefone: 118632050444
+    - Documento: 56864789755
+    - Código postal: 33896
+    - Cidade: Davenport
+    - Estado / Província: Florida
+    - Endereço: 446 Burford Cir
+    - Bairro: (none)
+    - Número: (none)
+    - Complemento: (none)
+    - Instagram: (none)
+    - Código do assinante: (none)
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+
+### Assinatura Mensal (Portal Prosperidade) (279 transações)
+
+- **Transação 1:**
+    - Código da transação: HP0213944896
+    - Status da transação: Aprovado
+    - Data da transação: 25/10/2025 15:31:29
+    - Confirmação do pagamento: 25/10/2025 15:34:00
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 868043
+    - Produto: Formação Holística - Portal Prosperidade
+    - Código do preço: e1y4irpi
+    - Nome deste preço: Assinatura Mensal (Portal Prosperidade)
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 44.9
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 44.9
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 44.9
+    - Faturamento líquido: 0.98
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 11.75
+    - Comissão do(a) Afiliado(a): 19.59
+    - Faturamento do(a) Coprodutor(a): 7.84
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 4.77
+    - Taxa de streaming: 0.5
+    - Outras Taxas: 0.45
+    - Nome do(a) Afiliado(a) : Fernando Silveira Cunha
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Pix
+    - Tipo de cobrança: Assinatura
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 19
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Francisca Edna Fernandes Silva
+    - Email do(a) Comprador(a): ednafsilva4427@gmail.com
+    - País: Brasil
+    - Telefone: 85999704427
+    - Documento: 01429077310
+    - Código postal: 63900169
+    - Cidade: Quixadá
+    - Estado / Província: CE
+    - Endereço: Rua Tabelião Enéas
+    - Bairro: Centro
+    - Número: 455
+    - Complemento: loja O Boiadeiro
+    - Instagram: (none)
+    - Código do assinante: HMGYABWJ
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+
+- **Transação 2:**
+    - Código da transação: HP0213944897
+    - Status da transação: Completo
+    - Data da transação: 26/10/2025 11:05:10
+    - Confirmação do pagamento: 26/10/2025 11:05:12
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 868043
+    - Produto: Formação Holística - Portal Prosperidade
+    - Código do preço: e1y4irpi
+    - Nome deste preço: Assinatura Mensal (Portal Prosperidade)
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 44.9
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 44.9
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 44.9
+    - Faturamento líquido: 1.20
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 10.50
+    - Comissão do(a) Afiliado(a): 20.10
+    - Faturamento do(a) Coprodutor(a): 8.33
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 4.77
+    - Taxa de streaming: 0
+    - Outras Taxas: 0
+    - Nome do(a) Afiliado(a) : Maria Eduarda
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Cartão de Crédito
+    - Tipo de cobrança: Assinatura
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 12
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Carlos Alberto de Nóbrega
+    - Email do(a) Comprador(a): carlos.nobrega@exemplo.com
+    - País: Brasil
+    - Telefone: 21987654321
+    - Documento: 12345678900
+    - Código postal: 22290040
+    - Cidade: Rio de Janeiro
+    - Estado / Província: RJ
+    - Endereço: Av. Pasteur
+    - Bairro: Urca
+    - Número: 296
+    - Complemento: (none)
+    - Instagram: (none)
+    - Código do assinante: HMGYACXK
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+
+- **Transação 3:**
+    - Código da transação: HP0213944898
+    - Status da transação: Reclamado
+    - Data da transação: 27/10/2025 09:15:45
+    - Confirmação do pagamento: 27/10/2025 09:16:00
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 868043
+    - Produto: Formação Holística - Portal Prosperidade
+    - Código do preço: e1y4irpi
+    - Nome deste preço: Assinatura Mensal (Portal Prosperidade)
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 44.9
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 44.9
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 44.9
+    - Faturamento líquido: 0
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 0
+    - Comissão do(a) Afiliado(a): 0
+    - Faturamento do(a) Coprodutor(a): 0
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 0
+    - Taxa de streaming: 0
+    - Outras Taxas: 0
+    - Nome do(a) Afiliado(a) : Fernando Silveira Cunha
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Boleto
+    - Tipo de cobrança: Assinatura
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 1
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Ana Paula Padrão
+    - Email do(a) Comprador(a): ana.padrao@exemplo.com
+    - País: Brasil
+    - Telefone: 61999887766
+    - Documento: 09876543211
+    - Código postal: 70340906
+    - Cidade: Brasília
+    - Estado / Província: DF
+    - Endereço: SQS 105 Bloco G
+    - Bairro: Asa Sul
+    - Número: 101
+    - Complemento: Apto 302
+    - Instagram: (none)
+    - Código do assinante: HMGYADLP
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+
+- **Transação 4:**
+    - Código da transação: HP0213944899
+    - Status da transação: Aprovado
+    - Data da transação: 28/10/2025 18:40:22
+    - Confirmação do pagamento: 28/10/2025 18:40:25
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 868043
+    - Produto: Formação Holística - Portal Prosperidade
+    - Código do preço: e1y4irpi
+    - Nome deste preço: Assinatura Mensal (Portal Prosperidade)
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 44.9
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 44.9
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 44.9
+    - Faturamento líquido: 0.98
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 11.75
+    - Comissão do(a) Afiliado(a): 19.59
+    - Faturamento do(a) Coprodutor(a): 7.84
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 4.77
+    - Taxa de streaming: 0.5
+    - Outras Taxas: 0.45
+    - Nome do(a) Afiliado(a) : Fernando Silveira Cunha
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Pix
+    - Tipo de cobrança: Assinatura
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 6
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Roberto Justos
+    - Email do(a) Comprador(a): roberto.justos@exemplo.com
+    - País: Brasil
+    - Telefone: 11988776655
+    - Documento: 11223344556
+    - Código postal: 01413000
+    - Cidade: São Paulo
+    - Estado / Província: SP
+    - Endereço: Rua Haddock Lobo
+    - Bairro: Cerqueira César
+    - Número: 1307
+    - Complemento: (none)
+    - Instagram: (none)
+    - Código do assinante: HMGYAEWQ
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+
+- **Transação 5:**
+    - Código da transação: HP0213944900
+    - Status da transação: Completo
+    - Data da transação: 29/10/2025 14:22:01
+    - Confirmação do pagamento: 29/10/2025 14:22:03
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 868043
+    - Produto: Formação Holística - Portal Prosperidade
+    - Código do preço: e1y4irpi
+    - Nome deste preço: Assinatura Mensal (Portal Prosperidade)
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 44.9
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 44.9
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 44.9
+    - Faturamento líquido: 1.20
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 10.50
+    - Comissão do(a) Afiliado(a): 20.10
+    - Faturamento do(a) Coprodutor(a): 8.33
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 4.77
+    - Taxa de streaming: 0
+    - Outras Taxas: 0
+    - Nome do(a) Afiliado(a) : Maria Eduarda
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Cartão de Crédito
+    - Tipo de cobrança: Assinatura
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 24
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Lúcia Veríssimo
+    - Email do(a) Comprador(a): lucia.verissimo@exemplo.com
+    - País: Brasil
+    - Telefone: 41977665544
+    - Documento: 66778899001
+    - Código postal: 80420170
+    - Cidade: Curitiba
+    - Estado / Província: PR
+    - Endereço: Rua Desembargador Motta
+    - Bairro: Centro
+    - Número: 2000
+    - Complemento: (none)
+    - Instagram: (none)
+    - Código do assinante: HMGYAFZR
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+
+- **Transação 6:**
+    - Código da transação: HP0213944901
+    - Status da transação: Completo
+    - Data da transação: 30/10/2025 07:55:19
+    - Confirmação do pagamento: 30/10/2025 07:55:22
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 868043
+    - Produto: Formação Holística - Portal Prosperidade
+    - Código do preço: e1y4irpi
+    - Nome deste preço: Assinatura Mensal (Portal Prosperidade)
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 44.9
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 44.9
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 44.9
+    - Faturamento líquido: 1.20
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 10.50
+    - Comissão do(a) Afiliado(a): 20.10
+    - Faturamento do(a) Coprodutor(a): 8.33
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 4.77
+    - Taxa de streaming: 0
+    - Outras Taxas: 0
+    - Nome do(a) Afiliado(a) : Maria Eduarda
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Cartão de Crédito
+    - Tipo de cobrança: Assinatura
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 3
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Marcos Palmeira
+    - Email do(a) Comprador(a): marcos.palmeira@exemplo.com
+    - País: Brasil
+    - Telefone: 71966554433
+    - Documento: 22334455667
+    - Código postal: 40140110
+    - Cidade: Salvador
+    - Estado / Província: BA
+    - Endereço: Av. Sete de Setembro
+    - Bairro: Barra
+    - Número: 1234
+    - Complemento: (none)
+    - Instagram: (none)
+    - Código do assinante: HMGYAGTX
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+
+- **Transação 7:**
+    - Código da transação: HP0213944902
+    - Status da transação: Aprovado
+    - Data da transação: 31/10/2025 21:10:05
+    - Confirmação do pagamento: 31/10/2025 21:12:30
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 868043
+    - Produto: Formação Holística - Portal Prosperidade
+    - Código do preço: e1y4irpi
+    - Nome deste preço: Assinatura Mensal (Portal Prosperidade)
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 44.9
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 44.9
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 44.9
+    - Faturamento líquido: 0.98
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 11.75
+    - Comissão do(a) Afiliado(a): 19.59
+    - Faturamento do(a) Coprodutor(a): 7.84
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 4.77
+    - Taxa de streaming: 0.5
+    - Outras Taxas: 0.45
+    - Nome do(a) Afiliado(a) : Fernando Silveira Cunha
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Pix
+    - Tipo de cobrança: Assinatura
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 9
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Zeca Pagodinho
+    - Email do(a) Comprador(a): zeca.pagodinho@exemplo.com
+    - País: Brasil
+    - Telefone: 21955443322
+    - Documento: 77889900112
+    - Código postal: 22795006
+    - Cidade: Rio de Janeiro
+    - Estado / Província: RJ
+    - Endereço: Av. Lúcio Costa
+    - Bairro: Barra da Tijuca
+    - Número: 3600
+    - Complemento: (none)
+    - Instagram: (none)
+    - Código do assinante: HMGYAHVC
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+
+- **Transação 8:**
+    - Código da transação: HP0213944903
+    - Status da transação: Aprovado
+    - Data da transação: 01/11/2025 10:00:00
+    - Confirmação do pagamento: 01/11/2025 10:00:03
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 868043
+    - Produto: Formação Holística - Portal Prosperidade
+    - Código do preço: e1y4irpi
+    - Nome deste preço: Assinatura Mensal (Portal Prosperidade)
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 44.9
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 44.9
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 44.9
+    - Faturamento líquido: 0.98
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 11.75
+    - Comissão do(a) Afiliado(a): 19.59
+    - Faturamento do(a) Coprodutor(a): 7.84
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 4.77
+    - Taxa de streaming: 0.5
+    - Outras Taxas: 0.45
+    - Nome do(a) Afiliado(a) : Fernando Silveira Cunha
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Pix
+    - Tipo de cobrança: Assinatura
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 1
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Eliana Michaelichen
+    - Email do(a) Comprador(a): eliana.michaelichen@exemplo.com
+    - País: Brasil
+    - Telefone: 11944332211
+    - Documento: 33445566778
+    - Código postal: 05676120
+    - Cidade: São Paulo
+    - Estado / Província: SP
+    - Endereço: Av. Morumbi
+    - Bairro: Morumbi
+    - Número: 5000
+    - Complemento: (none)
+    - Instagram: (none)
+    - Código do assinante: HMGYAIZB
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+
+- **Transação 9:**
+    - Código da transação: HP0213944904
+    - Status da transação: Completo
+    - Data da transação: 02/11/2025 13:13:13
+    - Confirmação do pagamento: 02/11/2025 13:13:16
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 868043
+    - Produto: Formação Holística - Portal Prosperidade
+    - Código do preço: e1y4irpi
+    - Nome deste preço: Assinatura Mensal (Portal Prosperidade)
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 44.9
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 44.9
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 44.9
+    - Faturamento líquido: 1.20
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 10.50
+    - Comissão do(a) Afiliado(a): 20.10
+    - Faturamento do(a) Coprodutor(a): 8.33
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 4.77
+    - Taxa de streaming: 0
+    - Outras Taxas: 0
+    - Nome do(a) Afiliado(a) : Maria Eduarda
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Cartão de Crédito
+    - Tipo de cobrança: Assinatura
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 15
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Fausto Silva
+    - Email do(a) Comprador(a): fausto.silva@exemplo.com
+    - País: Brasil
+    - Telefone: 11933221100
+    - Documento: 88990011223
+    - Código postal: 01246000
+    - Cidade: São Paulo
+    - Estado / Província: SP
+    - Endereço: Rua Piauí
+    - Bairro: Higienópolis
+    - Número: 844
+    - Complemento: (none)
+    - Instagram: (none)
+    - Código do assinante: HMGYAJLM
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+
+- **Transação 10:**
+    - Código da transação: HP0213944905
+    - Status da transação: Completo
+    - Data da transação: 03/11/2025 16:30:45
+    - Confirmação do pagamento: 03/11/2025 16:30:48
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 868043
+    - Produto: Formação Holística - Portal Prosperidade
+    - Código do preço: e1y4irpi
+    - Nome deste preço: Assinatura Mensal (Portal Prosperidade)
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 44.9
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 44.9
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 44.9
+    - Faturamento líquido: 1.20
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 10.50
+    - Comissão do(a) Afiliado(a): 20.10
+    - Faturamento do(a) Coprodutor(a): 8.33
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 4.77
+    - Taxa de streaming: 0
+    - Outras Taxas: 0
+    - Nome do(a) Afiliado(a) : Maria Eduarda
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Cartão de Crédito
+    - Tipo de cobrança: Assinatura
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 18
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: (none)
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Angélica Ksyvickis
+    - Email do(a) Comprador(a): angelica.ksyvickis@exemplo.com
+    - País: Brasil
+    - Telefone: 21922110099
+    - Documento: 44556677889
+    - Código postal: 22620172
+    - Cidade: Rio de Janeiro
+    - Estado / Província: RJ
+    - Endereço: Av. do Pepê
+    - Bairro: Barra da Tijuca
+    - Número: 1000
+    - Complemento: (none)
+    - Instagram: (none)
+    - Código do assinante: HMGYAKPO
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+
+
+### Desconto por tempo limitado (2 transações)
+
+- **Transação 1:**
+    - Código da transação: HP3141592653
+    - Status da transação: Completo
+    - Data da transação: 15/11/2025 10:00:00
+    - Confirmação do pagamento: 15/11/2025 10:00:05
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 1618033
+    - Produto: Pacote de Cursos Essenciais
+    - Código do preço: dtl_offer_1
+    - Nome deste preço: Desconto por tempo limitado
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 197.00
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 197.00
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 197.00
+    - Faturamento líquido: 4.41
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 48.70
+    - Comissão do(a) Afiliado(a): 88.30
+    - Faturamento do(a) Coprodutor(a): 39.00
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 16.59
+    - Taxa de streaming: 1.00
+    - Outras Taxas: 2.00
+    - Nome do(a) Afiliado(a) : V R DE CASTRO PROMOCAO DE VENDAS
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Pix
+    - Tipo de cobrança: Apenas à vista
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 1
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: BLACKFRIDAY
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Rodrigo Faro
+    - Email do(a) Comprador(a): rodrigo.faro@exemplo.com
+    - País: Brasil
+    - Telefone: 11911223344
+    - Documento: 99887766554
+    - Código postal: 06454000
+    - Cidade: Barueri
+    - Estado / Província: SP
+    - Endereço: Alameda Rio Negro
+    - Bairro: Alphaville Industrial
+    - Número: 1030
+    - Complemento: (none)
+    - Instagram: (none)
+    - Código do assinante: (none)
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+
+- **Transação 2:**
+    - Código da transação: HP2718281828
+    - Status da transação: Cancelado
+    - Data da transação: 16/11/2025 14:30:10
+    - Confirmação do pagamento: 16/11/2025 14:30:12
+    - Produtor(a): Escola Portal Prosperidade
+    - Código do produto: 1618033
+    - Produto: Pacote de Cursos Essenciais
+    - Código do preço: dtl_offer_1
+    - Nome deste preço: Desconto por tempo limitado
+    - Taxa de conversão (moeda de compra): 1
+    - Moeda de compra: BRL
+    - Valor de compra com impostos: 197.00
+    - Impostos locais de compra + Taxa de parcelamento: 0
+    - Valor de compra sem impostos: 197.00
+    - Taxa de conversão (moeda de recebimento): 1
+    - Moeda de recebimento: BRL
+    - Faturamento bruto (sem impostos): 197.00
+    - Faturamento líquido: 0
+    - Venda feita como: Coprodutor
+    - Faturamento líquido do(a) Produtor(a): 0
+    - Comissão do(a) Afiliado(a): 0
+    - Faturamento do(a) Coprodutor(a): 0
+    - Moeda das Taxas: BRL
+    - Taxa de processamento: 0
+    - Taxa de streaming: 0
+    - Outras Taxas: 0
+    - Nome do(a) Afiliado(a) : V R DE CASTRO PROMOCAO DE VENDAS
+    - Canal usado para venda: (none)
+    - Código SRC: (none)
+    - Código SCK: (none)
+    - Método de pagamento: Cartão de Crédito
+    - Tipo de cobrança: Apenas à vista
+    - Quantidade total de parcelas: 1
+    - Quantidade de cobranças: 1
+    - Data de vencimento (vouchers): (none)
+    - Código de cupom: BLACKFRIDAY
+    - Período gratuito (Trial): Não
+    - Quantidade de itens: 1
+    - Comprador(a): Sabrina Sato
+    - Email do(a) Comprador(a): sabrina.sato@exemplo.com
+    - País: Brasil
+    - Telefone: 11955667788
+    - Documento: 11009988776
+    - Código postal: 05402300
+    - Cidade: São Paulo
+    - Estado / Província: SP
+    - Endereço: Rua dos Pinheiros
+    - Bairro: Pinheiros
+    - Número: 1500
+    - Complemento: Apto 10
+    - Instagram: (none)
+    - Código do assinante: (none)
+    - Tax Solutions: false
+    - Transação do Produto Principal: (none)
+    - Tipo da antecipação de assinatura: (none)
+    - Imposto sobre serviço Hotmart: 0
+    - Impostos Locais: 0
+    - Taxa de parcelamento: 0
+    - Valor do frete bruto: 0
+`;
